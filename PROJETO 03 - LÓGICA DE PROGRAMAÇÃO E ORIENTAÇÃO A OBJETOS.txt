@@ -1,0 +1,41 @@
+/*PROJETO 03 - DADOS, VARIÁVEIS E ATRIBUIÇÃO/*
+/*Renato José da Silva Araújo/*
+
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+	/*RESPOSTAS*/
+
+1 - A PROPOSTA DAS VARIÁVEIS
+
+		Variáveis: Nome, Endereço  - CARACTERE
+		Variáveis: CPF, RG - INTEIRO
+		Variável: Altura - REAL
+
+2 - ELABORA A DECLARAÇÃO DAS VARIÁVEIS
+
+	/*Ultilizando o comando de atribuição "<_", segue:/*
+
+		Var Nome
+		Var CPF
+		Var RG
+		Var Altura
+		Var Endereço
+
+3 - UTILIZANDO O COMANDO DE ATIBUIÇÃO
+
+		Nome<_"José Almeida da Silva"
+		CPF<_12345678900
+		RG<_9517530
+		Altura<_1,78
+		Endereço<_"Rua A, 380 – Centro – Recife/PE"
