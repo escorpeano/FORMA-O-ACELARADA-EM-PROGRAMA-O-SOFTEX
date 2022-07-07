@@ -1,0 +1,62 @@
+/*PROJETO 04 - Comando de entrada, saída e resultado/*
+/*Renato José da Silva Araújo/*
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+
+/*ALGORITMO DE CADASTRO/*
+
+Início:
+Variáveis: Nome, Endereço, Cidade, NomeDoPai, NomeDaMãe  - Tipo: CARACTERE
+Variáveis: CPF, RG, Idade - Tipo: INTEIRO
+Variáveis: Peso, RendaBruta - Tipo: REAL
+
+
+/*execução do algoritmo de cadastro/*
+
+	escreva ("Me informe seu nome",Nome);
+	leia (Nome);
+	escreva ("Qual seu endereço?",Endereço);
+	leia (Endereço);
+	escreva ("Você é de qual cidade?",Cidade);
+	leia (Cidade);
+	escreva ("Me informe CPF, apenas os números",CPF);
+	leia (CPF);
+	escreva ("Agora me informe seu RG, apenas os números",RG);
+	leia (RG);
+	escreva ("Quantos anos você tem?",Idade);
+	leia (Idade);
+	escreva ("Qual o nome do seu pai?",Nome do pai);
+	leia (Nome do pai);
+	escreva ("Qual o nome da sua mão",Nome da mãe);
+	leia (Nome da mãe);
+
+/*apresentando as informações do cadastro/*
+
+- Nome RENATO JOSÉ DA SILVA ARAUJO
+- Endereço RUA LUISA SANTOS, Nº70
+- Cidade CAMARAGIBE
+- CPF 09756977493
+- RG 8228641
+- Idade 29 AN0S
+- Nome do pai RAMIRO ARAUJO DE SOUZA
+- Nome da mãe EDIVANIA ESTEVAO DA SILVA
+- Peso 102,00
+- Renda bruta 1345,00
+
+
+
+
