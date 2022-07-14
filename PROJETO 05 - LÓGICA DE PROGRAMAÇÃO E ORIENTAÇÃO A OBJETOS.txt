@@ -1,0 +1,144 @@
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual meio de transporte o usuário está pensando.
+O usuário deverá escolher uma das seguintes opções:
+
+- Trator
+- Moto
+- Bicicleta
+- Trem
+- Carro
+- Caminhão
+- Ônibus
+- Paraquedas
+- Balão
+- Avião
+- Helicóptero
+- Submarino
+- Barco
+- Navio
+- Lancha
+
+Para chegar ao resultado, só devem ser usadas perguntas que retornem "Sim" ou "Não".
+
+Exemplo:
+É terrestre? Sim.
+Cabe apenas uma pessoa? Sim.
+É pesado? Não.
+Tem pedal? Sim.
+Então, o transporte escolhido foi a bicicleta.
+
+Para chegar ao resultado de cada uma das opções, use o modelo ilustrado na imagem em anexo
+
+
+/*RESPOSTA CONTRUÇÃO DO ALGORITMO/*
+
+Var resposta: caractere
+
+//Início
+
+escreva ("Dentre as opções abaixo escolha MENTALMENTE UM meio de transporte")
+escreva ("Escolheu?")
+	se (resposta="SIM") então
+escreva ("É terrestre?")
+se (resposta="SIM") então
+	escreva ("Cabe apenas uma pessoa?")
+		se (resposta="SIM") então
+			escreva ("É Pesado?")
+				se (resposta="SIM") então
+					escreva("O transporte que você escolheu é um TRATOR")
+					senão
+			escreva ("Tem pedal?")
+				se (resposta="SIM") então
+					escreva ("O transporte que você escolheu é uma BICICLETA")
+					senão
+	escreva ("usa capacete?")
+		se (resposta="SIM") então
+			escreva ("O transporte que você escolheu é uma MOTO")
+			senão
+	escreva ("tem passageiro?")
+		se (resposta="SIM") então
+			escreva ("Usa Trilho?")
+				se (resposta="SIM") então
+					escreva ("O transporte que você escolheu é um TREM")
+					senão
+			escreva ("Anda na pista?")
+				se (resposta="SIM") então
+					escreva ("É alto?")
+						se (resposta="SIM") então
+							escreva ("Usa carroceiria?")
+								se (resposta="SIM") então
+									escreva ("O transporte que você escolheu é um CAMINHÃO")
+									senão
+							escreva ("Pode ter cobrador?")
+								se (resposta="SIM") então
+									escreva ("O transporte que você escolheu é um ÔNIBUS")
+									senão
+					escreva ("É veículo leve?")
+						se (resposta="SIM") então
+							escreva ("O transporte que você escolheu é um CARRO")
+							senão
+escreva ("É aéreo?")
+se (resposta="SIM") então
+	escreva ("Precisa pular?")
+		se (resposta="SIM") então
+			escreva ("O transporte que você escolheu é uma ASA DELTA")
+			senão
+	escreva ("Viaja dentro?")
+		se (resposta="SIM") então
+			escreva ("É devagar?")
+				se (resposta="SIM") então
+					escreva ("O transporte que você escolheu é um BALÃO")
+					senão
+			escreva ("Tem piloto?")
+				se (resposta="SIM") então
+					escreva ("Possui asas fixas?")
+						se (resposta="SIM") então
+							escreva ("O transporte que você escolheu é um AVIÃO")
+							senão
+					escreva ("Faz voo vertical?")
+						se (resposta="SIM") então
+							escreva ("O transporte que você escolheu é um HELICÓPTERO")
+							senão
+escreva ("É aquático?")
+	se (resposta="SIM") então
+		escreva ("É coberto d'aguá")
+			se (resposta="SIM") então
+				escreva ("O transporte que você escolheu é um SUBMARINO")
+				senão
+		escreva ("Navega na água?")
+			se (resposta="SIM") então
+				escreva ("Possui vela?")
+					se (resposta="SIM") então
+						escreva ("O transporte que você escolheu é um BARCO")
+						senão
+				escreva ("Tem motor?")
+					se (resposta="SIM") então
+						escreva ("É alto?")
+							se (resposta="SIM") então
+								escreva ("O transporte que você escolheu é um NAVIO")
+								senão
+						escreva ("Pode ser descoberto?")
+							se (resposta="SIM") então
+								escreva ("O transporte que você escolheu é uma LANCHA")
+FIMSE
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
