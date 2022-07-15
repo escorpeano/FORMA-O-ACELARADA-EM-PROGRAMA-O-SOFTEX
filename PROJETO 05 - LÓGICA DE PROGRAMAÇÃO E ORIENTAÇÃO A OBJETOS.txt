@@ -35,7 +35,22 @@ Var resposta: caractere
 
 //Início
 
-escreva ("Dentre as opções abaixo escolha MENTALMENTE UM meio de transporte")
+escreva ("Dentre as opções abaixo escolha MENTALMENTE UM meio de transporte:
+- Trator
+- Moto
+- Bicicleta
+- Trem
+- Carro
+- Caminhão
+- Ônibus
+- Paraquedas
+- Balão
+- Avião
+- Helicóptero
+- Submarino
+- Barco
+- Navio
+- Lancha")
 escreva ("Escolheu?")
 	se (resposta="SIM") então
 escreva ("É terrestre?")
