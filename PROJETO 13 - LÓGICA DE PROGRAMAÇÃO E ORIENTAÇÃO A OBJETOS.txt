@@ -1,0 +1,44 @@
+Desenvolva um programa que utiliza o nome de um aluno, duas notas e a quantidade de faltas que ele teve. Conclua se o aluno está aprovado ou reprovado de acordo com as especificações:
+
+- Se a média do aluno for menor que sete, o sistema deve informar o nome do aluno e que ele está reprovado;
+- Se o aluno possuir mais de três faltas, o sistema deve informar o nome do aluno e que ele está reprovado;
+- Se a média do aluno for maior ou igual a sete, o sistema deve informar o nome do aluno e que ele está aprovado.
+
+No sistema, todos os valores devem estar armazenados em variáveis.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+
+
+//Programa Aluno Reprovado ou Aprovado//
+
+Var
+NomeAluno: caractere
+Nota1, Nota2, MediaNota, SomaNota: real
+Faltas: inteiro 
+
+
+Início
+
+Print("Qual seu nome?")
+	read(NomeAluno)
+Print("Qual sua primeira nota?")
+	read(Nota1)
+Print("Qual sua segunda nota?")
+	read(Nota2)
+
+SomaNota=Nota1+Nota2
+MediaNota=SomaNota/2
+
+IF(MediaNota>=7) and (Faltas<=3):
+	read("Aluno", NomeAluno, "Aprovado")
+else
+	read("Aluno", NomeAluno, "Reprovado")
+elif
+
+
+
+
+
+
+
