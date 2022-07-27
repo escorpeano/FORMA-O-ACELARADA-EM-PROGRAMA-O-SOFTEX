@@ -1,0 +1,20 @@
+#Código pra indicar a melhor categoria de habilitação
+/*usei a linguagem Python/*
+
+qtdRodas=int(input("Quantas rodas tem o seu veiculo?"))
+pesokg=float(input("Qual o peso máximo que seu veiculo suporta?"))
+qtdPessoasVeiculos=int(input("Quantas pessoas cabem no seu veiculo?"))
+if(qtdRodas>=2) and (qtdRodas<=3):
+    print("Categoria da Habilitação A")
+elif(qtdRodas==4) and (qtdPessoasVeiculos<=8) and (pesokg<=3.500):
+    print("Categoria da Habilitação B")
+elif(qtdRodas>=4) and (pesokg>=3.500) and (pesokg<=6.000):
+    print("Categoria da Habilitação C")
+elif(qtdRodas>=4) and (qtdPessoasVeiculos>8):
+    print("Categoria da Habilitação D")
+elif(qtdRodas>=4) and (pesokg>6.000):
+    print("Categoria da Habilitação E")
+
+
+
+
